@@ -13,6 +13,7 @@
 #include <sys/types.h>
 
 char *read_line(void);
+char *_strdup(const char *str);
 
 
 #endif

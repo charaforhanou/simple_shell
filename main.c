@@ -13,7 +13,7 @@ if (line == NULL)
 {
 if (istatty(STDIN_FILEND))
 {
-write(STDOUT_FILENO, "In", 1);
+write(STDOUT_FILENO, "\n", 1);
 return (status);
 }
 }
