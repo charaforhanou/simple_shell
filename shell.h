@@ -12,7 +12,7 @@
 #include <string.h>
 #include <sys/types.h>
 
-char *read_line (void);
+char *read_line(void);
 
 
 #endif
