@@ -2,7 +2,7 @@
 
 int main(int ac, char **argv)
 {
-char *line = NULL;
+char *line = NULL, **command = NULL;
 int status = 0;
 (void) ac;
 (void) argv;
@@ -17,7 +17,7 @@ write(STDOUT_FILENO, "\n", 1);
 return (status);
 }
 }
-printf("%s \n", line);
-free(line);
+
+command = takenizer(line);
 }
 }
